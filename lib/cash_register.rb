@@ -18,16 +18,17 @@ attr_accessor :total, :discount, :items
   
   #binding.pry
   def apply_discount
-    #binding.pry
     if discount > 0 
-
       self.total -= self.total * (discount.to_f/100)
       "After the discount, the total comes to $#{total.to_i}."
     else 
       "There is no discount to apply."
     end
-
   end 
   
+  def void_last_transaction 
+    binding.pry
+    
+  end 
   
 end 
