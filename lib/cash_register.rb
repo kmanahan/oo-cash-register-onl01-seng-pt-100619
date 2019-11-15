@@ -32,6 +32,7 @@ attr_accessor :total, :discount, :items, :price
     @total -= @price
     if @total = []
       0.0
+    end
   end 
   
 end 
