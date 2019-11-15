@@ -30,6 +30,8 @@ attr_accessor :total, :discount, :items, :price
   def void_last_transaction 
     #binding.pry
     @total -= @price
+    if @total = []
+      0.0
   end 
   
 end 
