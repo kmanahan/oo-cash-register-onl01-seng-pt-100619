@@ -28,7 +28,7 @@ attr_accessor :total, :discount, :items
   
   def void_last_transaction 
     #binding.pry
-    self.total@items.pop
+    @items.pop
   
   end 
   
